@@ -248,7 +248,7 @@ def winning_team
             
             attributes.each do |player, player_data|
               away_points << player_data[:points]
-            
+            end
           end
     # elsif away_points > home_points
           end
