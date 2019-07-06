@@ -235,7 +235,7 @@ def winning_team
     data.each do |key, value|
       if key == :players
         value.each do |attributes|
-          binding.pry
+          # binding.pry
           attributes.each do |player, player_data|
             # binding.pry
             home_points << player_data[:points]
