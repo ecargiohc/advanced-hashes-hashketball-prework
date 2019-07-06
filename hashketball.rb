@@ -245,6 +245,7 @@ def winning_team
               away_points << player_data[:points]
     # elsif away_points > home_points
   end
+end
         end
         end
       end
