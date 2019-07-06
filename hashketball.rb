@@ -246,7 +246,7 @@ def winning_team
               away_points << player_data[:points]
            
         
-      
+      end
     end
   end
 end
