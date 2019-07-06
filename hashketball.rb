@@ -236,6 +236,7 @@ def winning_team
       if key == :players
         value.each do |attributes|
           attributes.each do |player, player_data|
+            binding.pry
             home_points << player_data[:points]
       binding.pry
     elsif team == :away
