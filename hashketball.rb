@@ -256,13 +256,4 @@ def winning_team
   end
 end
     # elsif away_points > home_points
-          end
-        end
-      end
-    end
-  end
-end
-end
-
-  
-
+        
