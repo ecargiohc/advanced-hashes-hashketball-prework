@@ -270,13 +270,10 @@ def player_with_longest_name
         value.each do |attributes|
           attributes.each do |player, player_data|
             if player.length > long_name
-              # binding.pry
               long_name = player.length
               # binding.pry
               long_named = player
-              # binding.pry
             end
-            # binding.pry
           end
         end
       end
