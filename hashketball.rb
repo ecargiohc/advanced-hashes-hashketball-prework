@@ -290,7 +290,7 @@ def long_name_steals_a_ton?
         value.each do |attributes|
           attributes.each do |player, player_data|
             if player_data[:steals] > most_steals
-              stealer = player_data[:steals]
+              most_steals = player_data[:steals]
             binding.pry
           end
         end
