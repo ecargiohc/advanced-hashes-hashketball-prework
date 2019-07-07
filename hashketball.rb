@@ -288,6 +288,7 @@ def long_name_steals_a_ton?
       if key == :players
         value.each do |attributes|
           attributes.each do |player, player_data|
+            binding.pry
         end
       end
     end
