@@ -261,4 +261,4 @@ def winning_team
     end
 end
 
-        
+def p        
