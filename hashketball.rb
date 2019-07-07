@@ -227,18 +227,18 @@ def most_points_scored
 end 
 
 def winning_team 
-  # home_points = []
-  # away_points = []
-  # total = 0
-  # game_hash.each do |team, data|
-  #   if team == :home
-  #   data.each do |key, value|
-  #     if key == :players
-  #       value.each do |attributes|
-  #         attributes.each do |player, player_data|
-  #           home_points << player_data[:points]
-  #           home_points.reduce
-      # binding.pry
+  home_points = []
+  away_points = []
+  total = 0
+  game_hash.each do |team, data|
+    if team == :home
+    data.each do |key, value|
+      if key == :players
+        value.each do |attributes|
+          attributes.each do |player, player_data|
+            home_points << player_data[:points]
+            home_points.reduce
+      binding.pry
     # elsif team == :away
     #   data.each do |key, value|
     #     if key == :players
