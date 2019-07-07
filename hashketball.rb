@@ -238,7 +238,7 @@ def winning_team
           attributes.each do |player, player_data|
             home_points << player_data[:points]
           
-        end
+       
       end
     end
             # home_points.reduce
