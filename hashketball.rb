@@ -292,6 +292,7 @@ def long_name_steals_a_ton?
           attributes.each do |player, player_data|
             if player_data[:steals] > most_steals
               most_steals = player_data[:steals]
+              stealer = 
             binding.pry
           end
         end
