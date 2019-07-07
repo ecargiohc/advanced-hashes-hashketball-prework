@@ -268,4 +268,8 @@ def player_with_longest_name
         value.each do |attributes|
           attributes.each do |player, player_data|
             binding.pry
+          end
+        end
+      end
+    end
 end
