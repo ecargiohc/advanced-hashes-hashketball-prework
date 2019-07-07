@@ -272,7 +272,7 @@ def player_with_longest_name
             if player.length > long_name
               # binding.pry
               long_name = player.length
-              # binding.pry
+              binding.pry
               player = long_named
               # binding.pry
             end
