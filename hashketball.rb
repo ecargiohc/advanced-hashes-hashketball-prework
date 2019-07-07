@@ -267,4 +267,5 @@ def player_with_longest_name
       if key == :players
         value.each do |attributes|
           attributes.each do |player, player_data|
+            binding.pry
 end
