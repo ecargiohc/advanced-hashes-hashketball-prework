@@ -260,5 +260,4 @@ def winning_team
   binding.pry
 end
 
-    # elsif away_points > home_points
         
