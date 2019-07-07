@@ -229,7 +229,8 @@ end
 def winning_team 
   home_points = []
   away_points = []
-  total = 0
+  home = "Brooklyn Nets"
+  away = "Charlotte Hornets"
   game_hash.each do |team, data|
     if team == :home
     data.each do |key, value|
@@ -259,7 +260,6 @@ def winning_team
   if home_points.reduce(:+) > away_points.reduce(:+)
       data[:team_name]
     end
- data[:team_name]
 end
 
         
