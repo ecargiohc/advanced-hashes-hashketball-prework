@@ -259,6 +259,8 @@ def winning_team
   end
   if home_points.reduce(:+) > away_points.reduce(:+)
       home
+    else 
+      away
     end
 end
 
