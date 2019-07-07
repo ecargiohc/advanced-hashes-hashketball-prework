@@ -239,12 +239,12 @@ def winning_team
             home_points << player_data[:points]
             home_points.reduce
       binding.pry
-    # elsif team == :away
-    #   data.each do |key, value|
-    #     if key == :players
-    #       value.each do |attributes|
-    #         attributes.each do |player, player_data|
-    #           away_points << player_data[:points]
+    elsif team == :away
+      data.each do |key, value|
+        if key == :players
+          value.each do |attributes|
+            attributes.each do |player, player_data|
+              away_points << player_data[:points]
             end
           end
         end
