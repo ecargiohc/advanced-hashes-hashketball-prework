@@ -271,8 +271,9 @@ def player_with_longest_name
           attributes.each do |player, player_data|
             if player.length > long_name
               player.length = long_name
-              player = long_named
               binding.pry
+              player = long_named
+              # binding.pry
             end
             # binding.pry
           end
