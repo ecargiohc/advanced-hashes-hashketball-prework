@@ -242,7 +242,7 @@ def winning_team
     end
   end
             # home_points.reduce
-      # binding.pry
+      binding.pry
     elsif team == :away
       data.each do |key, value|
         if key == :players
@@ -257,7 +257,7 @@ def winning_team
   end
   if home_points.reduce(:+) > away_points.reduce(:+)
     
-  binding.pry
+  
 end
 
     # elsif away_points > home_points
