@@ -289,7 +289,7 @@ def long_name_steals_a_ton?
       if key == :players
         value.each do |attributes|
           attributes.each do |player, player_data|
-            if player_data[:steals] > stealer
+            if player_data[:steals] > most_steals
               stealer = player_data[:steals]
             binding.pry
           end
