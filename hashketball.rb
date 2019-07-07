@@ -261,13 +261,14 @@ def winning_team
     end
 end
 
-def player_with_longest_name      
+def player_with_longest_name   
+  long_name = 0
   game_hash.each do |team, data|
     data.each do |key, value|
       if key == :players
         value.each do |attributes|
           attributes.each do |player, player_data|
-            if player.length > 0
+            if player.length > 
             binding.pry
           end
         end
