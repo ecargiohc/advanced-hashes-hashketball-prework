@@ -240,6 +240,7 @@ def winning_team
         end
       end
     end
+  end
             # home_points.reduce
       # binding.pry
     elsif team == :away
