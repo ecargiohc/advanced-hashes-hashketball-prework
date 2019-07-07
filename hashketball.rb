@@ -263,6 +263,7 @@ end
 
 def player_with_longest_name   
   long_name = 0
+  long_named = ""
   game_hash.each do |team, data|
     data.each do |key, value|
       if key == :players
