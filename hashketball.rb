@@ -259,7 +259,7 @@ def winning_team
   if home_points.reduce(:+) > away_points.reduce(:+)
       data[:team_name]
     end
-  # binding.pry
+ data[:team_name]
 end
 
         
