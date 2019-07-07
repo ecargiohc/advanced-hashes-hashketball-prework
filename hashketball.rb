@@ -237,7 +237,7 @@ def winning_team
         value.each do |attributes|
           attributes.each do |player, player_data|
             home_points << player_data[:points]
-            binding.pry
+            # binding.pry
         end
       end
     end
@@ -256,8 +256,8 @@ def winning_team
       end
     end
   end
-  # if home_points.reduce(:+) > away_points.reduce(:+)
-      data[:]
+  if home_points.reduce(:+) > away_points.reduce(:+)
+      data[:team_name]
   # binding.pry
 end
 
