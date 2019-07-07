@@ -300,6 +300,7 @@ def long_name_steals_a_ton?
     end
   end
     if player_with_longest_name == stealer
+      binding.pry
       true
     else 
       false
