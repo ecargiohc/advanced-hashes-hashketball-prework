@@ -283,5 +283,9 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton?
-  
+   game_hash.each do |team, data|
+    data.each do |key, value|
+      if key == :players
+        value.each do |attributes|
+          attributes.each do |player, player_data|
 end
