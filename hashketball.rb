@@ -269,6 +269,7 @@ def player_with_longest_name
         value.each do |attributes|
           attributes.each do |player, player_data|
             if player.length > long_name
+              player
             binding.pry
           end
         end
